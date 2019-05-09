@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*desktop  / global view*/
+
+body {
+	font-family: 'Prata', serif;	
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+
+		
+}
+
+.col {
+	float: left;
+	padding:1% 1%;
+}
+.col-lg{
+	width:98%;
+}
+.col-lg img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.slicknav_menu{
+	display: none;}
+
+#menu {
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: #3E6680;
+	padding:10px;
+	font-size: 20px
+	
+}
+header {
+	padding: 10px 20px 20px 20px;
+}
+.hero {
+	background-image: url(wood_01_edited.jpg);
+	padding: 52px 52px 72px 72px;
+	background-size:cover;
+}
+
+.subheading {
+	color: #F1F7FB;
+	font-weight: 800px;
+	font-size: 33px;
+	margin-bottom: -40px
+}
+
+h1{
+	Color: #F1F7FB;
+	font-family: 'Prata', serif;
+	font-size: 60px;
+	font-weight: 200;
+	padding:10px;
+	margin-bottom: -5px;
+	
+}
+
+.heading-body-copy {
+	color: #F1F7FB;
+	font-family: 'Prata', serif;
+	font-size: 30px;
+	font-weight: 150;
+	padding:10px;
+	margin-right: 20%;
+}
+		
+.explore-the-menu {
+	background-color: #F46432;
+	padding: 8px 30px;
+	text-decoration: none;
+	color: #FDFDFD
+	}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	float: left;
+	border-radius: 20%;
+}
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007665;
+	color: white;
+}
+	
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+footer {	
+	font-family: 'Prata', serif;	
+	text-decoration: none;
+	color: #3E6680;
+	padding:20px;
+	font-size: 20px
+}
